@@ -9,7 +9,6 @@ body {
     background-color: #3f4042;
     margin: 0;
     padding: 0;
-
 }
 
 /* Style de l'en-tête */
@@ -19,7 +18,7 @@ header {
     text-align: center;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -34,7 +33,7 @@ nav ul li {
     display: inline;
     margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 10px; /* Ajoutez la marge inférieure souhaitée ici */
+    margin-bottom: 10px;
 }
 
 nav a {
@@ -60,12 +59,11 @@ code {
 
 /* Style de la section principale */
 main {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     padding: 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     background-color: #3f4042;
     color: #fff;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .Tabulation {
@@ -82,43 +80,15 @@ footer {
 
 /* Style des sections */
 section {
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /* Style pour les titres de section */
 h2 {
     font-size: 24px;
-    margin-bottom: 30px;
 }
 
 /* Style pour les paragraphes */
 p {
     font-size: 16px;
-}
-
-/* .center-image {
-    text-align: center;
-}
-
-.center-image img {
-    display: inline-block;
-} */
-
-.test {
-    text-align: center;
-    width: 100vw;
-    margin-top: 50px;
-}
-
-.center-image {
-    text-align: center;
-    width: 100vw;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.center-image img {
-    margin: auto;
-
 }
