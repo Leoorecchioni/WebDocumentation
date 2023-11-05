@@ -29,9 +29,9 @@ a, a:visited {
     color: white;
 }
 
-a:hover {
+/* a:hover {
     text-transform: uppercase;
-}
+} */
 
 
 /* main grid layout */
@@ -89,10 +89,27 @@ header {
     margin-left: 3rem;
 }
 
-/* header .current {
-    font-weight: bolder;
-    color: #7289DA!important;
-} */
+.style-pdf {
+    padding: 7px;
+    background-color: #33373a;
+    border-radius: 10%;
+}
+
+.style-pdf:hover {
+    background-color: #d04747;
+}
+
+.current {
+    padding: 7px;
+    background-color: #33373a;
+    border-radius: 10%;
+
+}
+
+.current:hover {
+    background-color: #272dd5;
+
+}
 
 /*sidebar-styling*/
 
@@ -154,14 +171,37 @@ header {
     width: 100%;
 }
 
-/*main styling*/
+/*c styling*/
 main {
-    padding: 5rem 10rem 4rem 10rem;
     text-align: justify;
     overflow: auto;
     line-height: 3rem;
     background-color: #33373a;
     color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-container {
+    position: relative;
+    /* display: inline-block; */
+}
+.image-container::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(to bottom, transparent, rgb(51, 55, 58));
+    z-index: 1;
+}
+
+.text-main {
+    padding: 5rem 10rem 4rem 10rem;
 }
 
 h1, h3, h6 {
@@ -178,6 +218,9 @@ main > p {
     list-style-position: inside;
     padding: 1rem 0 1rem 0;
 }
+
+
+
 
 @media (max-width: 768px)  {
     html {
