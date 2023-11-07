@@ -21,6 +21,7 @@ body {
 }
 
 h1, h3 {
+    margin-top: 20px;
     font-weight: 500;
 }
 
@@ -185,6 +186,26 @@ img {
     height: 100%;
 }
 
+.test {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.container-test {
+    display: flex;
+}
+
+.test-test {
+    width: 45%;
+    height: 45%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
 .image-container {
     position: relative;
     /* display: inline-block; */
@@ -219,7 +240,11 @@ main > p {
     padding: 1rem 0 1rem 0;
 }
 
-
+code {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
 
 
 @media (max-width: 768px)  {
